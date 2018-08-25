@@ -1,0 +1,81 @@
+.title{
+  font-size:30px;
+  font-family: Comic Sans MS;
+  color:white;
+}
+.address{
+  font-size:15px;
+  font-family:sans-serif;
+  color:white;
+}
+.service{
+  font-size:10px;
+  margin-top:2%;
+  font-family:sans-serif;
+  color:white;
+}
+.ratting{
+  font-size:15px;
+  margin-top:2%;
+  font-weight: bold;
+  font-family:Comic Sans MS;
+  color:white;
+}
+.col-sm-3,.col-sm-6{
+  color:white;
+  font-weight: bold;
+}
+.sec{
+  font-size:10px;
+}
+fieldset.scheduler-border {
+border: 1px groove #ddd !important;
+padding: 0 1.4em 1.4em 1.4em !important;
+margin: 0 0 1.5em 0 !important;
+-webkit-box-shadow:  0px 0px 0px 0px #000;
+      box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+  font-size: 1.2em !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  width:auto;
+  padding:0 10px;
+  border-bottom:none;
+}
+.control-group{
+font-size: 12px;
+}
+body {
+    position: relative;
+}
+ul.nav-pills {
+  top:30%;
+  position: sticky;
+}
+
+ul.nav-pill.nav-stacked{
+  texcolor:purple;
+}
+
+.nav-pills > li > a:hover{
+ color: purple;
+ font-size:20px;
+ font-weight: bold;
+ background-color: white;
+
+}
+.nav-pills > li.active > a:hover{
+ color: white;
+ background-color: purple;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+      color: white;
+      background-color: purple;
+  }
+  .nav-pills > li>a{
+    font-weight: bold;
+    color:black;
+  }

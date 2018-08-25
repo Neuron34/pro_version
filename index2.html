@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- MDBootstrap Datatables  -->
+    <link href="css/addons/datatables.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div style="margin-top:0%; background-color:white;">
+    <table id="dtBasicExample" class="table table-striped table-bordered table-sm" cellspacing="0" width="100%">
+  <thead>
+    <tr >
+
+      <th class="th-sm" style="border-right:2px solid black ;">Product image
+        <i class="fa fa-sort float-right" aria-hidden="true"></i>
+      </th>
+
+      <th class="th-sm" style="border-right:2px solid black ;border-left:2px solid black;'">Product Name
+        <i class="fa fa-sort float-right" aria-hidden="true"></i>
+      </th>
+      <th class="th-sm" style="border-right:2px solid black ;border-left:2px solid black;'">Cost
+        <i class="fa fa-sort float-right" aria-hidden="true"></i>
+      </th>
+      <th class="th-sm"style="border-right:2px solid black ;border-left:2px solid black;'">veg or non-veg
+        <i class="fa fa-sort float-right" aria-hidden="true"></i>
+      </th>
+      <th class="th-sm" style="border-right:2px solid black ;border-left:2px solid black;'">Type of Food
+        <i class="fa fa-sort float-right" aria-hidden="true"></i>
+      </th>
+      <th class="th-sm" style="border-right:2px solid black ;border-left:2px solid black;'">Delivery time
+        <i class="fa fa-sort float-right" aria-hidden="true"></i>
+      </th>
+      <th class="th-sm" style=";border-left:2px solid black;'">Delivery Cost
+        <i class="fa fa-sort float-right" aria-hidden="true"></i>
+      </th>
+      <th class="th-sm" style=";border-left:2px solid black;'">Update/Delete
+
+      </th>
+
+
+      </thead>
+  <tbody>
+    <tr>
+
+      <td><img height="100" width="100" src="img.jpg" ><button class="btn btn-primary" style="padding:10px;margin-top:0px;"><i class="fa fa-pencil-square-o" style="font-size:20px;"></i></button></td>
+      <td><center><b>momos</b></font></center></td>
+      <td><center><input class="form-control " type="text" value="kxx" size=2></center></td>
+      <td><center><select class="form-control"><option value="">Veg</option><option>Non-veg</option></select></center></td>
+      <td><center><select class="form-control">
+        <option value="">Chinese</option>
+        <option value="">Continental</option>
+        <option value="">Nort Indian</option>
+        <option value="">South Indian</option>
+        <option>Muglai</option>
+        <option value="">Thai</option>
+        <option value="">Beverage</option>
+        <option value="">Italian</option>
+        <option value="">Punjabi</option>
+        <option value="">Desert</option>
+      </select></center></td>
+      <td><center><input class="form-control " type="text" value="kxx" size=2><br></center></td>
+      <td><center><input class="form-control " type="text" value="kxx" size=2><br></center></td>
+  <td><button class="btn btn-primary btn-rounded" style="padding:12px;margin-top:-8px;width:50px;"><i class="fa fa-refresh" style="font-size:20px;"></i></button><button class="btn btn-danger btn-rounded" style="padding:12px;margin-top:-8px;width:50px;"><i class="fa fa-trash" style="font-size:20px;"></i></button></td>
+        </tr>
+
+
+
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Name</i>
+      </th>
+      <th>Position</i>
+      </th>
+      <th>Office</i>
+      </th>
+      <th>Age</i>
+      </th>
+      <th>Start date</i>
+      </th>
+      <th>Salary</i>
+      </th>
+    </tr>
+  </tfoot>
+  </table>
+  </div>    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- MDBootstrap Datatables  -->
+    <script type="text/javascript" src="js/addons/datatables.min.js"></script>
+    <script>
+    $(document).ready(function () {
+  $('#dtBasicExample').DataTable();
+  $('.dataTables_length').addClass('bs-select');
+});
+    </script>
+</body>
+
+</html>
